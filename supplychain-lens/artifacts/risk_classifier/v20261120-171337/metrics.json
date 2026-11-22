@@ -1,0 +1,270 @@
+{
+  "models": {
+    "Neural network (PyTorch MLP)": {
+      "val": {
+        "pr_auc": 0.17930247609164218,
+        "roc_auc": 0.7576049415515409,
+        "brier": 0.032186418004436126,
+        "threshold": 0.12503569550812244,
+        "precision": 0.4067796610169492,
+        "recall": 0.17647058823529413,
+        "f1": 0.24615384615384614,
+        "positive_rate": 0.03487179487179487,
+        "alerts": 59,
+        "n": 3900
+      },
+      "test": {
+        "pr_auc": 0.05753657957661759,
+        "roc_auc": 0.7132802134788507,
+        "brier": 0.03580013050793018,
+        "threshold": 0.12503569550812244,
+        "precision": 0.04081632653061224,
+        "recall": 0.04225352112676056,
+        "f1": 0.04152249134948097,
+        "positive_rate": 0.03641025641025641,
+        "alerts": 147,
+        "n": 3900
+      },
+      "calibration_test": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.0011396476549681467,
+          "observed_rate": 0.0,
+          "n": 390
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.00191745830532641,
+          "observed_rate": 0.007692307692307693,
+          "n": 390
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.004138611404535671,
+          "observed_rate": 0.0,
+          "n": 390
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.007018045714507118,
+          "observed_rate": 0.0,
+          "n": 390
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.010814931520666832,
+          "observed_rate": 0.017948717948717947,
+          "n": 390
+        },
+        {
+          "bin": 5,
+          "mean_predicted": 0.017267698608338832,
+          "observed_rate": 0.05384615384615385,
+          "n": 390
+        },
+        {
+          "bin": 6,
+          "mean_predicted": 0.025366875557945326,
+          "observed_rate": 0.08974358974358974,
+          "n": 390
+        },
+        {
+          "bin": 7,
+          "mean_predicted": 0.03828819289039343,
+          "observed_rate": 0.11538461538461539,
+          "n": 390
+        },
+        {
+          "bin": 8,
+          "mean_predicted": 0.06195163077268845,
+          "observed_rate": 0.05384615384615385,
+          "n": 390
+        },
+        {
+          "bin": 9,
+          "mean_predicted": 0.12300606333674528,
+          "observed_rate": 0.02564102564102564,
+          "n": 390
+        }
+      ]
+    },
+    "Logistic regression": {
+      "val": {
+        "pr_auc": 0.15126102417883694,
+        "roc_auc": 0.7616955522910545,
+        "brier": 0.03265286937731632,
+        "threshold": 0.05200337322428823,
+        "precision": 0.111358574610245,
+        "recall": 0.36764705882352944,
+        "f1": 0.17094017094017094,
+        "positive_rate": 0.03487179487179487,
+        "alerts": 449,
+        "n": 3900
+      },
+      "test": {
+        "pr_auc": 0.06469266335629273,
+        "roc_auc": 0.74711413772684,
+        "brier": 0.03514639686137757,
+        "threshold": 0.05200337322428823,
+        "precision": 0.02826086956521739,
+        "recall": 0.09154929577464789,
+        "f1": 0.04318936877076412,
+        "positive_rate": 0.03641025641025641,
+        "alerts": 460,
+        "n": 3900
+      },
+      "calibration_test": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.0020514755008312372,
+          "observed_rate": 0.0,
+          "n": 390
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.003245796909770713,
+          "observed_rate": 0.0,
+          "n": 390
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.00475511697288125,
+          "observed_rate": 0.0,
+          "n": 390
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.008449153050493735,
+          "observed_rate": 0.0,
+          "n": 390
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.01448453931758801,
+          "observed_rate": 0.017948717948717947,
+          "n": 390
+        },
+        {
+          "bin": 5,
+          "mean_predicted": 0.021453506499528884,
+          "observed_rate": 0.03076923076923077,
+          "n": 390
+        },
+        {
+          "bin": 6,
+          "mean_predicted": 0.026801559381569043,
+          "observed_rate": 0.11538461538461539,
+          "n": 390
+        },
+        {
+          "bin": 7,
+          "mean_predicted": 0.034030476035789035,
+          "observed_rate": 0.05384615384615385,
+          "n": 390
+        },
+        {
+          "bin": 8,
+          "mean_predicted": 0.045336770247190426,
+          "observed_rate": 0.11794871794871795,
+          "n": 390
+        },
+        {
+          "bin": 9,
+          "mean_predicted": 0.09455513777450109,
+          "observed_rate": 0.028205128205128206,
+          "n": 390
+        }
+      ]
+    },
+    "XGBoost": {
+      "val": {
+        "pr_auc": 0.11656004713766865,
+        "roc_auc": 0.8370163155591672,
+        "brier": 0.03313675444827283,
+        "threshold": 0.03509356081485748,
+        "precision": 0.15090090090090091,
+        "recall": 0.49264705882352944,
+        "f1": 0.2310344827586207,
+        "positive_rate": 0.03487179487179487,
+        "alerts": 444,
+        "n": 3900
+      },
+      "test": {
+        "pr_auc": 0.07715521098452585,
+        "roc_auc": 0.7193105412678304,
+        "brier": 0.03490725896945628,
+        "threshold": 0.03509356081485748,
+        "precision": 0.03832752613240418,
+        "recall": 0.15492957746478872,
+        "f1": 0.061452513966480445,
+        "positive_rate": 0.03641025641025641,
+        "alerts": 574,
+        "n": 3900
+      },
+      "calibration_test": [
+        {
+          "bin": 0,
+          "mean_predicted": 0.019088951870799065,
+          "observed_rate": 0.0,
+          "n": 390
+        },
+        {
+          "bin": 1,
+          "mean_predicted": 0.0190928243769285,
+          "observed_rate": 0.0,
+          "n": 390
+        },
+        {
+          "bin": 2,
+          "mean_predicted": 0.020142635134741283,
+          "observed_rate": 0.0,
+          "n": 390
+        },
+        {
+          "bin": 3,
+          "mean_predicted": 0.021948383648235065,
+          "observed_rate": 0.0,
+          "n": 390
+        },
+        {
+          "bin": 4,
+          "mean_predicted": 0.023524654331879738,
+          "observed_rate": 0.035897435897435895,
+          "n": 390
+        },
+        {
+          "bin": 5,
+          "mean_predicted": 0.025278918927487654,
+          "observed_rate": 0.04358974358974359,
+          "n": 390
+        },
+        {
+          "bin": 6,
+          "mean_predicted": 0.02677513954635614,
+          "observed_rate": 0.08974358974358974,
+          "n": 390
+        },
+        {
+          "bin": 7,
+          "mean_predicted": 0.030176577740945877,
+          "observed_rate": 0.13076923076923078,
+          "n": 390
+        },
+        {
+          "bin": 8,
+          "mean_predicted": 0.03555720852544675,
+          "observed_rate": 0.015384615384615385,
+          "n": 390
+        },
+        {
+          "bin": 9,
+          "mean_predicted": 0.05551416283616653,
+          "observed_rate": 0.04871794871794872,
+          "n": 390
+        }
+      ]
+    }
+  },
+  "selected_model": "Neural network (PyTorch MLP)",
+  "label_note": "Synthetic labels from the generator's event log; not real outcomes."
+}

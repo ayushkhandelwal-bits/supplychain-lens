@@ -1,0 +1,16 @@
+# Training environment (your laptop). Includes everything the app needs.
+#
+# Install the CPU build of PyTorch FIRST, so pip doesn't fetch a multi-GB GPU build:
+#   python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+# (if that index is unreachable, plain `pip install torch` works too; see ADR-0009)
+# Then:
+#   python -m pip install -r requirements-train.txt
+-r requirements.txt
+torch>=2.4,<3
+onnx>=1.16
+onnxscript>=0.1
+scikit-learn>=1.4
+statsmodels>=0.14
+psutil>=5.9
+lightgbm>=4.3
+xgboost>=2.0

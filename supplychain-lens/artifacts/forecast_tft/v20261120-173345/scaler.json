@@ -1,0 +1,2005 @@
+{
+  "method": "divide by train-period mean demand per series",
+  "series": [
+    {
+      "sku_id": "SKU-0000",
+      "warehouse_id": "WH-001",
+      "scale": 596.8936403508771
+    },
+    {
+      "sku_id": "SKU-0000",
+      "warehouse_id": "WH-007",
+      "scale": 648.7521929824561
+    },
+    {
+      "sku_id": "SKU-0000",
+      "warehouse_id": "WH-008",
+      "scale": 802.9605263157895
+    },
+    {
+      "sku_id": "SKU-0000",
+      "warehouse_id": "WH-012",
+      "scale": 716.0537280701755
+    },
+    {
+      "sku_id": "SKU-0001",
+      "warehouse_id": "WH-004",
+      "scale": 784.9243421052631
+    },
+    {
+      "sku_id": "SKU-0001",
+      "warehouse_id": "WH-005",
+      "scale": 813.7763157894736
+    },
+    {
+      "sku_id": "SKU-0001",
+      "warehouse_id": "WH-007",
+      "scale": 525.8004385964912
+    },
+    {
+      "sku_id": "SKU-0001",
+      "warehouse_id": "WH-010",
+      "scale": 626.7467105263158
+    },
+    {
+      "sku_id": "SKU-0002",
+      "warehouse_id": "WH-002",
+      "scale": 1580.1677631578948
+    },
+    {
+      "sku_id": "SKU-0002",
+      "warehouse_id": "WH-006",
+      "scale": 1995.8991228070176
+    },
+    {
+      "sku_id": "SKU-0002",
+      "warehouse_id": "WH-007",
+      "scale": 1078.017543859649
+    },
+    {
+      "sku_id": "SKU-0002",
+      "warehouse_id": "WH-012",
+      "scale": 1984.6491228070176
+    },
+    {
+      "sku_id": "SKU-0003",
+      "warehouse_id": "WH-002",
+      "scale": 460.8300438596491
+    },
+    {
+      "sku_id": "SKU-0003",
+      "warehouse_id": "WH-004",
+      "scale": 484.4199561403509
+    },
+    {
+      "sku_id": "SKU-0003",
+      "warehouse_id": "WH-005",
+      "scale": 466.6326754385965
+    },
+    {
+      "sku_id": "SKU-0003",
+      "warehouse_id": "WH-009",
+      "scale": 271.06907894736844
+    },
+    {
+      "sku_id": "SKU-0004",
+      "warehouse_id": "WH-004",
+      "scale": 101.84429824561404
+    },
+    {
+      "sku_id": "SKU-0004",
+      "warehouse_id": "WH-006",
+      "scale": 167.7796052631579
+    },
+    {
+      "sku_id": "SKU-0004",
+      "warehouse_id": "WH-007",
+      "scale": 163.15899122807016
+    },
+    {
+      "sku_id": "SKU-0004",
+      "warehouse_id": "WH-009",
+      "scale": 128.47149122807016
+    },
+    {
+      "sku_id": "SKU-0005",
+      "warehouse_id": "WH-004",
+      "scale": 537.2258771929825
+    },
+    {
+      "sku_id": "SKU-0005",
+      "warehouse_id": "WH-006",
+      "scale": 959.4660087719299
+    },
+    {
+      "sku_id": "SKU-0005",
+      "warehouse_id": "WH-008",
+      "scale": 975.0186403508771
+    },
+    {
+      "sku_id": "SKU-0005",
+      "warehouse_id": "WH-010",
+      "scale": 680.1600877192982
+    },
+    {
+      "sku_id": "SKU-0006",
+      "warehouse_id": "WH-001",
+      "scale": 1459.267543859649
+    },
+    {
+      "sku_id": "SKU-0006",
+      "warehouse_id": "WH-003",
+      "scale": 1617.6315789473683
+    },
+    {
+      "sku_id": "SKU-0006",
+      "warehouse_id": "WH-011",
+      "scale": 1382.3640350877192
+    },
+    {
+      "sku_id": "SKU-0006",
+      "warehouse_id": "WH-012",
+      "scale": 1422.0
+    },
+    {
+      "sku_id": "SKU-0007",
+      "warehouse_id": "WH-002",
+      "scale": 1545.1929824561403
+    },
+    {
+      "sku_id": "SKU-0007",
+      "warehouse_id": "WH-003",
+      "scale": 1263.9780701754387
+    },
+    {
+      "sku_id": "SKU-0007",
+      "warehouse_id": "WH-004",
+      "scale": 947.5844298245614
+    },
+    {
+      "sku_id": "SKU-0007",
+      "warehouse_id": "WH-012",
+      "scale": 1263.0855263157894
+    },
+    {
+      "sku_id": "SKU-0008",
+      "warehouse_id": "WH-001",
+      "scale": 888.9714912280701
+    },
+    {
+      "sku_id": "SKU-0008",
+      "warehouse_id": "WH-003",
+      "scale": 1409.1491228070176
+    },
+    {
+      "sku_id": "SKU-0008",
+      "warehouse_id": "WH-008",
+      "scale": 1352.232456140351
+    },
+    {
+      "sku_id": "SKU-0008",
+      "warehouse_id": "WH-012",
+      "scale": 1559.875
+    },
+    {
+      "sku_id": "SKU-0009",
+      "warehouse_id": "WH-002",
+      "scale": 487.0515350877193
+    },
+    {
+      "sku_id": "SKU-0009",
+      "warehouse_id": "WH-006",
+      "scale": 728.2160087719299
+    },
+    {
+      "sku_id": "SKU-0009",
+      "warehouse_id": "WH-008",
+      "scale": 359.7785087719298
+    },
+    {
+      "sku_id": "SKU-0009",
+      "warehouse_id": "WH-012",
+      "scale": 677.0098684210526
+    },
+    {
+      "sku_id": "SKU-0010",
+      "warehouse_id": "WH-001",
+      "scale": 135.9046052631579
+    },
+    {
+      "sku_id": "SKU-0010",
+      "warehouse_id": "WH-003",
+      "scale": 219.21162280701753
+    },
+    {
+      "sku_id": "SKU-0010",
+      "warehouse_id": "WH-004",
+      "scale": 161.890350877193
+    },
+    {
+      "sku_id": "SKU-0010",
+      "warehouse_id": "WH-008",
+      "scale": 226.89583333333334
+    },
+    {
+      "sku_id": "SKU-0011",
+      "warehouse_id": "WH-003",
+      "scale": 153.2357456140351
+    },
+    {
+      "sku_id": "SKU-0011",
+      "warehouse_id": "WH-004",
+      "scale": 337.4046052631579
+    },
+    {
+      "sku_id": "SKU-0011",
+      "warehouse_id": "WH-009",
+      "scale": 224.21052631578948
+    },
+    {
+      "sku_id": "SKU-0011",
+      "warehouse_id": "WH-010",
+      "scale": 229.52412280701753
+    },
+    {
+      "sku_id": "SKU-0012",
+      "warehouse_id": "WH-002",
+      "scale": 974.4243421052631
+    },
+    {
+      "sku_id": "SKU-0012",
+      "warehouse_id": "WH-004",
+      "scale": 763.6480263157895
+    },
+    {
+      "sku_id": "SKU-0012",
+      "warehouse_id": "WH-005",
+      "scale": 870.8048245614035
+    },
+    {
+      "sku_id": "SKU-0012",
+      "warehouse_id": "WH-007",
+      "scale": 496.3695175438597
+    },
+    {
+      "sku_id": "SKU-0013",
+      "warehouse_id": "WH-002",
+      "scale": 2053.094298245614
+    },
+    {
+      "sku_id": "SKU-0013",
+      "warehouse_id": "WH-007",
+      "scale": 1464.1162280701753
+    },
+    {
+      "sku_id": "SKU-0013",
+      "warehouse_id": "WH-011",
+      "scale": 1316.0559210526317
+    },
+    {
+      "sku_id": "SKU-0013",
+      "warehouse_id": "WH-012",
+      "scale": 1448.1765350877192
+    },
+    {
+      "sku_id": "SKU-0014",
+      "warehouse_id": "WH-001",
+      "scale": 1548.6030701754387
+    },
+    {
+      "sku_id": "SKU-0014",
+      "warehouse_id": "WH-004",
+      "scale": 1314.9287280701753
+    },
+    {
+      "sku_id": "SKU-0014",
+      "warehouse_id": "WH-009",
+      "scale": 2243.440789473684
+    },
+    {
+      "sku_id": "SKU-0014",
+      "warehouse_id": "WH-011",
+      "scale": 2259.1491228070176
+    },
+    {
+      "sku_id": "SKU-0015",
+      "warehouse_id": "WH-003",
+      "scale": 463.8563596491228
+    },
+    {
+      "sku_id": "SKU-0015",
+      "warehouse_id": "WH-005",
+      "scale": 522.3662280701755
+    },
+    {
+      "sku_id": "SKU-0015",
+      "warehouse_id": "WH-006",
+      "scale": 579.0
+    },
+    {
+      "sku_id": "SKU-0015",
+      "warehouse_id": "WH-009",
+      "scale": 560.0921052631579
+    },
+    {
+      "sku_id": "SKU-0016",
+      "warehouse_id": "WH-001",
+      "scale": 557.9912280701755
+    },
+    {
+      "sku_id": "SKU-0016",
+      "warehouse_id": "WH-003",
+      "scale": 937.9320175438596
+    },
+    {
+      "sku_id": "SKU-0016",
+      "warehouse_id": "WH-011",
+      "scale": 686.4133771929825
+    },
+    {
+      "sku_id": "SKU-0016",
+      "warehouse_id": "WH-012",
+      "scale": 491.0
+    },
+    {
+      "sku_id": "SKU-0017",
+      "warehouse_id": "WH-003",
+      "scale": 353.6206140350877
+    },
+    {
+      "sku_id": "SKU-0017",
+      "warehouse_id": "WH-007",
+      "scale": 286.19627192982455
+    },
+    {
+      "sku_id": "SKU-0017",
+      "warehouse_id": "WH-010",
+      "scale": 296.5361842105263
+    },
+    {
+      "sku_id": "SKU-0017",
+      "warehouse_id": "WH-012",
+      "scale": 472.8695175438597
+    },
+    {
+      "sku_id": "SKU-0018",
+      "warehouse_id": "WH-002",
+      "scale": 67.6875
+    },
+    {
+      "sku_id": "SKU-0018",
+      "warehouse_id": "WH-003",
+      "scale": 63.94298245614035
+    },
+    {
+      "sku_id": "SKU-0018",
+      "warehouse_id": "WH-005",
+      "scale": 74.8201754385965
+    },
+    {
+      "sku_id": "SKU-0018",
+      "warehouse_id": "WH-011",
+      "scale": 75.86074561403508
+    },
+    {
+      "sku_id": "SKU-0019",
+      "warehouse_id": "WH-005",
+      "scale": 434.8969298245614
+    },
+    {
+      "sku_id": "SKU-0019",
+      "warehouse_id": "WH-008",
+      "scale": 680.7675438596491
+    },
+    {
+      "sku_id": "SKU-0019",
+      "warehouse_id": "WH-010",
+      "scale": 463.952850877193
+    },
+    {
+      "sku_id": "SKU-0019",
+      "warehouse_id": "WH-012",
+      "scale": 439.1480263157895
+    },
+    {
+      "sku_id": "SKU-0020",
+      "warehouse_id": "WH-001",
+      "scale": 1064.7313596491229
+    },
+    {
+      "sku_id": "SKU-0020",
+      "warehouse_id": "WH-003",
+      "scale": 760.703947368421
+    },
+    {
+      "sku_id": "SKU-0020",
+      "warehouse_id": "WH-004",
+      "scale": 801.8092105263158
+    },
+    {
+      "sku_id": "SKU-0020",
+      "warehouse_id": "WH-011",
+      "scale": 949.186403508772
+    },
+    {
+      "sku_id": "SKU-0021",
+      "warehouse_id": "WH-001",
+      "scale": 2214.308114035088
+    },
+    {
+      "sku_id": "SKU-0021",
+      "warehouse_id": "WH-002",
+      "scale": 3163.155701754386
+    },
+    {
+      "sku_id": "SKU-0021",
+      "warehouse_id": "WH-005",
+      "scale": 3129.4572368421054
+    },
+    {
+      "sku_id": "SKU-0021",
+      "warehouse_id": "WH-006",
+      "scale": 2213.315789473684
+    },
+    {
+      "sku_id": "SKU-0022",
+      "warehouse_id": "WH-002",
+      "scale": 59.88486842105263
+    },
+    {
+      "sku_id": "SKU-0022",
+      "warehouse_id": "WH-003",
+      "scale": 72.15350877192982
+    },
+    {
+      "sku_id": "SKU-0022",
+      "warehouse_id": "WH-008",
+      "scale": 73.70394736842105
+    },
+    {
+      "sku_id": "SKU-0022",
+      "warehouse_id": "WH-011",
+      "scale": 70.91118421052632
+    },
+    {
+      "sku_id": "SKU-0023",
+      "warehouse_id": "WH-003",
+      "scale": 302.00109649122805
+    },
+    {
+      "sku_id": "SKU-0023",
+      "warehouse_id": "WH-008",
+      "scale": 219.32565789473685
+    },
+    {
+      "sku_id": "SKU-0023",
+      "warehouse_id": "WH-009",
+      "scale": 398.64912280701753
+    },
+    {
+      "sku_id": "SKU-0023",
+      "warehouse_id": "WH-010",
+      "scale": 294.9078947368421
+    },
+    {
+      "sku_id": "SKU-0024",
+      "warehouse_id": "WH-002",
+      "scale": 197.91008771929825
+    },
+    {
+      "sku_id": "SKU-0024",
+      "warehouse_id": "WH-008",
+      "scale": 276.76644736842104
+    },
+    {
+      "sku_id": "SKU-0024",
+      "warehouse_id": "WH-009",
+      "scale": 151.89802631578948
+    },
+    {
+      "sku_id": "SKU-0024",
+      "warehouse_id": "WH-012",
+      "scale": 123.80263157894737
+    },
+    {
+      "sku_id": "SKU-0025",
+      "warehouse_id": "WH-003",
+      "scale": 21.107456140350877
+    },
+    {
+      "sku_id": "SKU-0025",
+      "warehouse_id": "WH-004",
+      "scale": 10.855263157894736
+    },
+    {
+      "sku_id": "SKU-0025",
+      "warehouse_id": "WH-005",
+      "scale": 23.25438596491228
+    },
+    {
+      "sku_id": "SKU-0025",
+      "warehouse_id": "WH-009",
+      "scale": 20.330043859649123
+    },
+    {
+      "sku_id": "SKU-0026",
+      "warehouse_id": "WH-001",
+      "scale": 203.81798245614036
+    },
+    {
+      "sku_id": "SKU-0026",
+      "warehouse_id": "WH-005",
+      "scale": 113.01754385964912
+    },
+    {
+      "sku_id": "SKU-0026",
+      "warehouse_id": "WH-008",
+      "scale": 109.1875
+    },
+    {
+      "sku_id": "SKU-0026",
+      "warehouse_id": "WH-009",
+      "scale": 200.55043859649123
+    },
+    {
+      "sku_id": "SKU-0027",
+      "warehouse_id": "WH-002",
+      "scale": 94.60197368421052
+    },
+    {
+      "sku_id": "SKU-0027",
+      "warehouse_id": "WH-005",
+      "scale": 199.49122807017545
+    },
+    {
+      "sku_id": "SKU-0027",
+      "warehouse_id": "WH-007",
+      "scale": 100.57675438596492
+    },
+    {
+      "sku_id": "SKU-0027",
+      "warehouse_id": "WH-010",
+      "scale": 114.95614035087719
+    },
+    {
+      "sku_id": "SKU-0028",
+      "warehouse_id": "WH-001",
+      "scale": 130.65021929824562
+    },
+    {
+      "sku_id": "SKU-0028",
+      "warehouse_id": "WH-002",
+      "scale": 165.47149122807016
+    },
+    {
+      "sku_id": "SKU-0028",
+      "warehouse_id": "WH-009",
+      "scale": 127.02850877192982
+    },
+    {
+      "sku_id": "SKU-0028",
+      "warehouse_id": "WH-011",
+      "scale": 128.66008771929825
+    },
+    {
+      "sku_id": "SKU-0029",
+      "warehouse_id": "WH-002",
+      "scale": 276.2214912280702
+    },
+    {
+      "sku_id": "SKU-0029",
+      "warehouse_id": "WH-006",
+      "scale": 330.6458333333333
+    },
+    {
+      "sku_id": "SKU-0029",
+      "warehouse_id": "WH-007",
+      "scale": 217.14254385964912
+    },
+    {
+      "sku_id": "SKU-0029",
+      "warehouse_id": "WH-012",
+      "scale": 337.81359649122805
+    },
+    {
+      "sku_id": "SKU-0030",
+      "warehouse_id": "WH-003",
+      "scale": 115.01315789473684
+    },
+    {
+      "sku_id": "SKU-0030",
+      "warehouse_id": "WH-005",
+      "scale": 97.97587719298245
+    },
+    {
+      "sku_id": "SKU-0030",
+      "warehouse_id": "WH-010",
+      "scale": 146.41337719298247
+    },
+    {
+      "sku_id": "SKU-0030",
+      "warehouse_id": "WH-011",
+      "scale": 123.33114035087719
+    },
+    {
+      "sku_id": "SKU-0031",
+      "warehouse_id": "WH-001",
+      "scale": 1429.107456140351
+    },
+    {
+      "sku_id": "SKU-0031",
+      "warehouse_id": "WH-006",
+      "scale": 1698.0581140350878
+    },
+    {
+      "sku_id": "SKU-0031",
+      "warehouse_id": "WH-008",
+      "scale": 2276.2653508771928
+    },
+    {
+      "sku_id": "SKU-0031",
+      "warehouse_id": "WH-011",
+      "scale": 2238.7324561403507
+    },
+    {
+      "sku_id": "SKU-0032",
+      "warehouse_id": "WH-001",
+      "scale": 716.890350877193
+    },
+    {
+      "sku_id": "SKU-0032",
+      "warehouse_id": "WH-003",
+      "scale": 924.9495614035088
+    },
+    {
+      "sku_id": "SKU-0032",
+      "warehouse_id": "WH-005",
+      "scale": 937.3717105263158
+    },
+    {
+      "sku_id": "SKU-0032",
+      "warehouse_id": "WH-006",
+      "scale": 1666.6359649122808
+    },
+    {
+      "sku_id": "SKU-0033",
+      "warehouse_id": "WH-001",
+      "scale": 596.405701754386
+    },
+    {
+      "sku_id": "SKU-0033",
+      "warehouse_id": "WH-009",
+      "scale": 639.186403508772
+    },
+    {
+      "sku_id": "SKU-0033",
+      "warehouse_id": "WH-010",
+      "scale": 354.5833333333333
+    },
+    {
+      "sku_id": "SKU-0033",
+      "warehouse_id": "WH-012",
+      "scale": 457.8333333333333
+    },
+    {
+      "sku_id": "SKU-0034",
+      "warehouse_id": "WH-004",
+      "scale": 456.0230263157895
+    },
+    {
+      "sku_id": "SKU-0034",
+      "warehouse_id": "WH-008",
+      "scale": 512.8684210526316
+    },
+    {
+      "sku_id": "SKU-0034",
+      "warehouse_id": "WH-010",
+      "scale": 591.3574561403509
+    },
+    {
+      "sku_id": "SKU-0034",
+      "warehouse_id": "WH-012",
+      "scale": 464.702850877193
+    },
+    {
+      "sku_id": "SKU-0035",
+      "warehouse_id": "WH-003",
+      "scale": 2658.4166666666665
+    },
+    {
+      "sku_id": "SKU-0035",
+      "warehouse_id": "WH-004",
+      "scale": 1243.6293859649122
+    },
+    {
+      "sku_id": "SKU-0035",
+      "warehouse_id": "WH-005",
+      "scale": 2163.407894736842
+    },
+    {
+      "sku_id": "SKU-0035",
+      "warehouse_id": "WH-007",
+      "scale": 2052.3212719298244
+    },
+    {
+      "sku_id": "SKU-0036",
+      "warehouse_id": "WH-001",
+      "scale": 331.9407894736842
+    },
+    {
+      "sku_id": "SKU-0036",
+      "warehouse_id": "WH-006",
+      "scale": 320.33991228070175
+    },
+    {
+      "sku_id": "SKU-0036",
+      "warehouse_id": "WH-007",
+      "scale": 319.65241228070175
+    },
+    {
+      "sku_id": "SKU-0036",
+      "warehouse_id": "WH-011",
+      "scale": 583.406798245614
+    },
+    {
+      "sku_id": "SKU-0037",
+      "warehouse_id": "WH-002",
+      "scale": 169.85416666666666
+    },
+    {
+      "sku_id": "SKU-0037",
+      "warehouse_id": "WH-003",
+      "scale": 138.58991228070175
+    },
+    {
+      "sku_id": "SKU-0037",
+      "warehouse_id": "WH-008",
+      "scale": 196.39583333333334
+    },
+    {
+      "sku_id": "SKU-0037",
+      "warehouse_id": "WH-012",
+      "scale": 99.51973684210526
+    },
+    {
+      "sku_id": "SKU-0038",
+      "warehouse_id": "WH-005",
+      "scale": 567.1688596491229
+    },
+    {
+      "sku_id": "SKU-0038",
+      "warehouse_id": "WH-006",
+      "scale": 355.6480263157895
+    },
+    {
+      "sku_id": "SKU-0038",
+      "warehouse_id": "WH-009",
+      "scale": 490.88706140350877
+    },
+    {
+      "sku_id": "SKU-0038",
+      "warehouse_id": "WH-010",
+      "scale": 323.4035087719298
+    },
+    {
+      "sku_id": "SKU-0039",
+      "warehouse_id": "WH-002",
+      "scale": 2314.9177631578946
+    },
+    {
+      "sku_id": "SKU-0039",
+      "warehouse_id": "WH-004",
+      "scale": 1687.0438596491229
+    },
+    {
+      "sku_id": "SKU-0039",
+      "warehouse_id": "WH-008",
+      "scale": 2854.2357456140353
+    },
+    {
+      "sku_id": "SKU-0039",
+      "warehouse_id": "WH-011",
+      "scale": 1791.5274122807018
+    },
+    {
+      "sku_id": "SKU-0040",
+      "warehouse_id": "WH-004",
+      "scale": 812.9901315789474
+    },
+    {
+      "sku_id": "SKU-0040",
+      "warehouse_id": "WH-007",
+      "scale": 510.0877192982456
+    },
+    {
+      "sku_id": "SKU-0040",
+      "warehouse_id": "WH-009",
+      "scale": 801.1030701754386
+    },
+    {
+      "sku_id": "SKU-0040",
+      "warehouse_id": "WH-010",
+      "scale": 664.6546052631579
+    },
+    {
+      "sku_id": "SKU-0041",
+      "warehouse_id": "WH-007",
+      "scale": 567.188596491228
+    },
+    {
+      "sku_id": "SKU-0041",
+      "warehouse_id": "WH-008",
+      "scale": 588.2368421052631
+    },
+    {
+      "sku_id": "SKU-0041",
+      "warehouse_id": "WH-010",
+      "scale": 633.2543859649123
+    },
+    {
+      "sku_id": "SKU-0041",
+      "warehouse_id": "WH-012",
+      "scale": 1024.205043859649
+    },
+    {
+      "sku_id": "SKU-0042",
+      "warehouse_id": "WH-003",
+      "scale": 328.2872807017544
+    },
+    {
+      "sku_id": "SKU-0042",
+      "warehouse_id": "WH-006",
+      "scale": 403.72258771929825
+    },
+    {
+      "sku_id": "SKU-0042",
+      "warehouse_id": "WH-007",
+      "scale": 493.0394736842105
+    },
+    {
+      "sku_id": "SKU-0042",
+      "warehouse_id": "WH-008",
+      "scale": 341.7094298245614
+    },
+    {
+      "sku_id": "SKU-0043",
+      "warehouse_id": "WH-001",
+      "scale": 542.1896929824561
+    },
+    {
+      "sku_id": "SKU-0043",
+      "warehouse_id": "WH-009",
+      "scale": 618.3048245614035
+    },
+    {
+      "sku_id": "SKU-0043",
+      "warehouse_id": "WH-010",
+      "scale": 482.0438596491228
+    },
+    {
+      "sku_id": "SKU-0043",
+      "warehouse_id": "WH-011",
+      "scale": 509.3717105263158
+    },
+    {
+      "sku_id": "SKU-0044",
+      "warehouse_id": "WH-001",
+      "scale": 1988.7752192982457
+    },
+    {
+      "sku_id": "SKU-0044",
+      "warehouse_id": "WH-003",
+      "scale": 1699.7456140350878
+    },
+    {
+      "sku_id": "SKU-0044",
+      "warehouse_id": "WH-005",
+      "scale": 1231.1995614035088
+    },
+    {
+      "sku_id": "SKU-0044",
+      "warehouse_id": "WH-008",
+      "scale": 1499.813596491228
+    },
+    {
+      "sku_id": "SKU-0045",
+      "warehouse_id": "WH-004",
+      "scale": 867.6776315789474
+    },
+    {
+      "sku_id": "SKU-0045",
+      "warehouse_id": "WH-006",
+      "scale": 656.0833333333334
+    },
+    {
+      "sku_id": "SKU-0045",
+      "warehouse_id": "WH-011",
+      "scale": 865.2434210526316
+    },
+    {
+      "sku_id": "SKU-0045",
+      "warehouse_id": "WH-012",
+      "scale": 798.0921052631579
+    },
+    {
+      "sku_id": "SKU-0046",
+      "warehouse_id": "WH-007",
+      "scale": 44.0109649122807
+    },
+    {
+      "sku_id": "SKU-0046",
+      "warehouse_id": "WH-008",
+      "scale": 63.93201754385965
+    },
+    {
+      "sku_id": "SKU-0046",
+      "warehouse_id": "WH-009",
+      "scale": 44.11184210526316
+    },
+    {
+      "sku_id": "SKU-0046",
+      "warehouse_id": "WH-011",
+      "scale": 81.03728070175438
+    },
+    {
+      "sku_id": "SKU-0047",
+      "warehouse_id": "WH-005",
+      "scale": 434.49013157894734
+    },
+    {
+      "sku_id": "SKU-0047",
+      "warehouse_id": "WH-010",
+      "scale": 432.78837719298247
+    },
+    {
+      "sku_id": "SKU-0047",
+      "warehouse_id": "WH-011",
+      "scale": 348.640350877193
+    },
+    {
+      "sku_id": "SKU-0047",
+      "warehouse_id": "WH-012",
+      "scale": 326.3125
+    },
+    {
+      "sku_id": "SKU-0048",
+      "warehouse_id": "WH-001",
+      "scale": 56.9265350877193
+    },
+    {
+      "sku_id": "SKU-0048",
+      "warehouse_id": "WH-006",
+      "scale": 55.333333333333336
+    },
+    {
+      "sku_id": "SKU-0048",
+      "warehouse_id": "WH-007",
+      "scale": 47.905701754385966
+    },
+    {
+      "sku_id": "SKU-0048",
+      "warehouse_id": "WH-010",
+      "scale": 62.17434210526316
+    },
+    {
+      "sku_id": "SKU-0049",
+      "warehouse_id": "WH-004",
+      "scale": 45.362938596491226
+    },
+    {
+      "sku_id": "SKU-0049",
+      "warehouse_id": "WH-008",
+      "scale": 30.640350877192983
+    },
+    {
+      "sku_id": "SKU-0049",
+      "warehouse_id": "WH-011",
+      "scale": 36.48464912280702
+    },
+    {
+      "sku_id": "SKU-0049",
+      "warehouse_id": "WH-012",
+      "scale": 43.43969298245614
+    },
+    {
+      "sku_id": "SKU-0050",
+      "warehouse_id": "WH-002",
+      "scale": 10.276315789473685
+    },
+    {
+      "sku_id": "SKU-0050",
+      "warehouse_id": "WH-005",
+      "scale": 7.37280701754386
+    },
+    {
+      "sku_id": "SKU-0050",
+      "warehouse_id": "WH-009",
+      "scale": 10.650219298245615
+    },
+    {
+      "sku_id": "SKU-0050",
+      "warehouse_id": "WH-011",
+      "scale": 9.987938596491228
+    },
+    {
+      "sku_id": "SKU-0051",
+      "warehouse_id": "WH-001",
+      "scale": 905.0
+    },
+    {
+      "sku_id": "SKU-0051",
+      "warehouse_id": "WH-003",
+      "scale": 927.0098684210526
+    },
+    {
+      "sku_id": "SKU-0051",
+      "warehouse_id": "WH-008",
+      "scale": 843.358552631579
+    },
+    {
+      "sku_id": "SKU-0051",
+      "warehouse_id": "WH-012",
+      "scale": 472.5844298245614
+    },
+    {
+      "sku_id": "SKU-0052",
+      "warehouse_id": "WH-004",
+      "scale": 90.91995614035088
+    },
+    {
+      "sku_id": "SKU-0052",
+      "warehouse_id": "WH-006",
+      "scale": 147.73684210526315
+    },
+    {
+      "sku_id": "SKU-0052",
+      "warehouse_id": "WH-011",
+      "scale": 115.84429824561404
+    },
+    {
+      "sku_id": "SKU-0052",
+      "warehouse_id": "WH-012",
+      "scale": 134.43421052631578
+    },
+    {
+      "sku_id": "SKU-0053",
+      "warehouse_id": "WH-001",
+      "scale": 190.45833333333334
+    },
+    {
+      "sku_id": "SKU-0053",
+      "warehouse_id": "WH-005",
+      "scale": 99.46710526315789
+    },
+    {
+      "sku_id": "SKU-0053",
+      "warehouse_id": "WH-007",
+      "scale": 125.38925438596492
+    },
+    {
+      "sku_id": "SKU-0053",
+      "warehouse_id": "WH-010",
+      "scale": 102.6173245614035
+    },
+    {
+      "sku_id": "SKU-0054",
+      "warehouse_id": "WH-001",
+      "scale": 3812.1184210526317
+    },
+    {
+      "sku_id": "SKU-0054",
+      "warehouse_id": "WH-004",
+      "scale": 1838.733552631579
+    },
+    {
+      "sku_id": "SKU-0054",
+      "warehouse_id": "WH-008",
+      "scale": 3936.9451754385964
+    },
+    {
+      "sku_id": "SKU-0054",
+      "warehouse_id": "WH-009",
+      "scale": 3008.7434210526317
+    },
+    {
+      "sku_id": "SKU-0055",
+      "warehouse_id": "WH-001",
+      "scale": 550.4462719298245
+    },
+    {
+      "sku_id": "SKU-0055",
+      "warehouse_id": "WH-002",
+      "scale": 402.15241228070175
+    },
+    {
+      "sku_id": "SKU-0055",
+      "warehouse_id": "WH-006",
+      "scale": 493.38925438596493
+    },
+    {
+      "sku_id": "SKU-0055",
+      "warehouse_id": "WH-011",
+      "scale": 289.7719298245614
+    },
+    {
+      "sku_id": "SKU-0056",
+      "warehouse_id": "WH-003",
+      "scale": 805.998903508772
+    },
+    {
+      "sku_id": "SKU-0056",
+      "warehouse_id": "WH-005",
+      "scale": 577.3947368421053
+    },
+    {
+      "sku_id": "SKU-0056",
+      "warehouse_id": "WH-009",
+      "scale": 900.8475877192982
+    },
+    {
+      "sku_id": "SKU-0056",
+      "warehouse_id": "WH-012",
+      "scale": 1106.1129385964912
+    },
+    {
+      "sku_id": "SKU-0057",
+      "warehouse_id": "WH-003",
+      "scale": 800.952850877193
+    },
+    {
+      "sku_id": "SKU-0057",
+      "warehouse_id": "WH-004",
+      "scale": 810.0668859649123
+    },
+    {
+      "sku_id": "SKU-0057",
+      "warehouse_id": "WH-005",
+      "scale": 1516.8015350877192
+    },
+    {
+      "sku_id": "SKU-0057",
+      "warehouse_id": "WH-008",
+      "scale": 987.436403508772
+    },
+    {
+      "sku_id": "SKU-0058",
+      "warehouse_id": "WH-001",
+      "scale": 321.94627192982455
+    },
+    {
+      "sku_id": "SKU-0058",
+      "warehouse_id": "WH-002",
+      "scale": 257.13706140350877
+    },
+    {
+      "sku_id": "SKU-0058",
+      "warehouse_id": "WH-010",
+      "scale": 402.280701754386
+    },
+    {
+      "sku_id": "SKU-0058",
+      "warehouse_id": "WH-011",
+      "scale": 293.44627192982455
+    },
+    {
+      "sku_id": "SKU-0059",
+      "warehouse_id": "WH-002",
+      "scale": 712.8563596491229
+    },
+    {
+      "sku_id": "SKU-0059",
+      "warehouse_id": "WH-003",
+      "scale": 888.3322368421053
+    },
+    {
+      "sku_id": "SKU-0059",
+      "warehouse_id": "WH-005",
+      "scale": 807.6271929824561
+    },
+    {
+      "sku_id": "SKU-0059",
+      "warehouse_id": "WH-011",
+      "scale": 723.4407894736842
+    },
+    {
+      "sku_id": "SKU-0060",
+      "warehouse_id": "WH-004",
+      "scale": 183.61184210526315
+    },
+    {
+      "sku_id": "SKU-0060",
+      "warehouse_id": "WH-006",
+      "scale": 131.37171052631578
+    },
+    {
+      "sku_id": "SKU-0060",
+      "warehouse_id": "WH-008",
+      "scale": 190.4594298245614
+    },
+    {
+      "sku_id": "SKU-0060",
+      "warehouse_id": "WH-010",
+      "scale": 261.17543859649123
+    },
+    {
+      "sku_id": "SKU-0061",
+      "warehouse_id": "WH-001",
+      "scale": 657.7774122807018
+    },
+    {
+      "sku_id": "SKU-0061",
+      "warehouse_id": "WH-007",
+      "scale": 424.86842105263156
+    },
+    {
+      "sku_id": "SKU-0061",
+      "warehouse_id": "WH-008",
+      "scale": 720.7171052631579
+    },
+    {
+      "sku_id": "SKU-0061",
+      "warehouse_id": "WH-009",
+      "scale": 577.594298245614
+    },
+    {
+      "sku_id": "SKU-0062",
+      "warehouse_id": "WH-003",
+      "scale": 228.74013157894737
+    },
+    {
+      "sku_id": "SKU-0062",
+      "warehouse_id": "WH-005",
+      "scale": 182.7938596491228
+    },
+    {
+      "sku_id": "SKU-0062",
+      "warehouse_id": "WH-006",
+      "scale": 169.70723684210526
+    },
+    {
+      "sku_id": "SKU-0062",
+      "warehouse_id": "WH-009",
+      "scale": 194.79934210526315
+    },
+    {
+      "sku_id": "SKU-0063",
+      "warehouse_id": "WH-003",
+      "scale": 1865.702850877193
+    },
+    {
+      "sku_id": "SKU-0063",
+      "warehouse_id": "WH-005",
+      "scale": 1333.3070175438597
+    },
+    {
+      "sku_id": "SKU-0063",
+      "warehouse_id": "WH-009",
+      "scale": 988.7434210526316
+    },
+    {
+      "sku_id": "SKU-0063",
+      "warehouse_id": "WH-012",
+      "scale": 2020.764254385965
+    },
+    {
+      "sku_id": "SKU-0064",
+      "warehouse_id": "WH-004",
+      "scale": 191.09868421052633
+    },
+    {
+      "sku_id": "SKU-0064",
+      "warehouse_id": "WH-005",
+      "scale": 345.52412280701753
+    },
+    {
+      "sku_id": "SKU-0064",
+      "warehouse_id": "WH-007",
+      "scale": 357.49342105263156
+    },
+    {
+      "sku_id": "SKU-0064",
+      "warehouse_id": "WH-011",
+      "scale": 202.34978070175438
+    },
+    {
+      "sku_id": "SKU-0065",
+      "warehouse_id": "WH-001",
+      "scale": 36.266447368421055
+    },
+    {
+      "sku_id": "SKU-0065",
+      "warehouse_id": "WH-002",
+      "scale": 55.22478070175438
+    },
+    {
+      "sku_id": "SKU-0065",
+      "warehouse_id": "WH-009",
+      "scale": 62.85635964912281
+    },
+    {
+      "sku_id": "SKU-0065",
+      "warehouse_id": "WH-011",
+      "scale": 65.42543859649123
+    },
+    {
+      "sku_id": "SKU-0066",
+      "warehouse_id": "WH-001",
+      "scale": 138.94188596491227
+    },
+    {
+      "sku_id": "SKU-0066",
+      "warehouse_id": "WH-009",
+      "scale": 68.85526315789474
+    },
+    {
+      "sku_id": "SKU-0066",
+      "warehouse_id": "WH-011",
+      "scale": 128.27521929824562
+    },
+    {
+      "sku_id": "SKU-0066",
+      "warehouse_id": "WH-012",
+      "scale": 107.24890350877193
+    },
+    {
+      "sku_id": "SKU-0067",
+      "warehouse_id": "WH-002",
+      "scale": 62.84100877192982
+    },
+    {
+      "sku_id": "SKU-0067",
+      "warehouse_id": "WH-006",
+      "scale": 80.68530701754386
+    },
+    {
+      "sku_id": "SKU-0067",
+      "warehouse_id": "WH-009",
+      "scale": 75.98684210526316
+    },
+    {
+      "sku_id": "SKU-0067",
+      "warehouse_id": "WH-011",
+      "scale": 81.60526315789474
+    },
+    {
+      "sku_id": "SKU-0068",
+      "warehouse_id": "WH-002",
+      "scale": 1215.6217105263158
+    },
+    {
+      "sku_id": "SKU-0068",
+      "warehouse_id": "WH-006",
+      "scale": 1465.8662280701753
+    },
+    {
+      "sku_id": "SKU-0068",
+      "warehouse_id": "WH-008",
+      "scale": 1265.5252192982457
+    },
+    {
+      "sku_id": "SKU-0068",
+      "warehouse_id": "WH-009",
+      "scale": 1759.2160087719299
+    },
+    {
+      "sku_id": "SKU-0069",
+      "warehouse_id": "WH-001",
+      "scale": 78.9484649122807
+    },
+    {
+      "sku_id": "SKU-0069",
+      "warehouse_id": "WH-005",
+      "scale": 60.20504385964912
+    },
+    {
+      "sku_id": "SKU-0069",
+      "warehouse_id": "WH-010",
+      "scale": 99.79385964912281
+    },
+    {
+      "sku_id": "SKU-0069",
+      "warehouse_id": "WH-011",
+      "scale": 90.77741228070175
+    },
+    {
+      "sku_id": "SKU-0070",
+      "warehouse_id": "WH-001",
+      "scale": 69.3157894736842
+    },
+    {
+      "sku_id": "SKU-0070",
+      "warehouse_id": "WH-002",
+      "scale": 58.88267543859649
+    },
+    {
+      "sku_id": "SKU-0070",
+      "warehouse_id": "WH-004",
+      "scale": 59.75438596491228
+    },
+    {
+      "sku_id": "SKU-0070",
+      "warehouse_id": "WH-012",
+      "scale": 78.36074561403508
+    },
+    {
+      "sku_id": "SKU-0071",
+      "warehouse_id": "WH-001",
+      "scale": 2496.4002192982457
+    },
+    {
+      "sku_id": "SKU-0071",
+      "warehouse_id": "WH-002",
+      "scale": 2238.5822368421054
+    },
+    {
+      "sku_id": "SKU-0071",
+      "warehouse_id": "WH-007",
+      "scale": 2313.8212719298244
+    },
+    {
+      "sku_id": "SKU-0071",
+      "warehouse_id": "WH-011",
+      "scale": 1369.876096491228
+    },
+    {
+      "sku_id": "SKU-0072",
+      "warehouse_id": "WH-001",
+      "scale": 372.13925438596493
+    },
+    {
+      "sku_id": "SKU-0072",
+      "warehouse_id": "WH-003",
+      "scale": 410.0701754385965
+    },
+    {
+      "sku_id": "SKU-0072",
+      "warehouse_id": "WH-010",
+      "scale": 553.0175438596491
+    },
+    {
+      "sku_id": "SKU-0072",
+      "warehouse_id": "WH-012",
+      "scale": 473.6041666666667
+    },
+    {
+      "sku_id": "SKU-0073",
+      "warehouse_id": "WH-001",
+      "scale": 877.2686403508771
+    },
+    {
+      "sku_id": "SKU-0073",
+      "warehouse_id": "WH-005",
+      "scale": 1532.0394736842106
+    },
+    {
+      "sku_id": "SKU-0073",
+      "warehouse_id": "WH-007",
+      "scale": 1171.627192982456
+    },
+    {
+      "sku_id": "SKU-0073",
+      "warehouse_id": "WH-009",
+      "scale": 1036.5888157894738
+    },
+    {
+      "sku_id": "SKU-0074",
+      "warehouse_id": "WH-002",
+      "scale": 1034.252192982456
+    },
+    {
+      "sku_id": "SKU-0074",
+      "warehouse_id": "WH-003",
+      "scale": 731.8673245614035
+    },
+    {
+      "sku_id": "SKU-0074",
+      "warehouse_id": "WH-006",
+      "scale": 1003.563596491228
+    },
+    {
+      "sku_id": "SKU-0074",
+      "warehouse_id": "WH-007",
+      "scale": 668.0953947368421
+    },
+    {
+      "sku_id": "SKU-0075",
+      "warehouse_id": "WH-001",
+      "scale": 323.7796052631579
+    },
+    {
+      "sku_id": "SKU-0075",
+      "warehouse_id": "WH-007",
+      "scale": 178.44078947368422
+    },
+    {
+      "sku_id": "SKU-0075",
+      "warehouse_id": "WH-008",
+      "scale": 214.8563596491228
+    },
+    {
+      "sku_id": "SKU-0075",
+      "warehouse_id": "WH-010",
+      "scale": 354.69407894736844
+    },
+    {
+      "sku_id": "SKU-0076",
+      "warehouse_id": "WH-006",
+      "scale": 93.01206140350877
+    },
+    {
+      "sku_id": "SKU-0076",
+      "warehouse_id": "WH-007",
+      "scale": 56.38486842105263
+    },
+    {
+      "sku_id": "SKU-0076",
+      "warehouse_id": "WH-008",
+      "scale": 98.59649122807018
+    },
+    {
+      "sku_id": "SKU-0076",
+      "warehouse_id": "WH-011",
+      "scale": 49.416666666666664
+    },
+    {
+      "sku_id": "SKU-0077",
+      "warehouse_id": "WH-003",
+      "scale": 559.3267543859649
+    },
+    {
+      "sku_id": "SKU-0077",
+      "warehouse_id": "WH-008",
+      "scale": 559.3201754385965
+    },
+    {
+      "sku_id": "SKU-0077",
+      "warehouse_id": "WH-009",
+      "scale": 628.8552631578947
+    },
+    {
+      "sku_id": "SKU-0077",
+      "warehouse_id": "WH-011",
+      "scale": 400.02412280701753
+    },
+    {
+      "sku_id": "SKU-0078",
+      "warehouse_id": "WH-002",
+      "scale": 99.8092105263158
+    },
+    {
+      "sku_id": "SKU-0078",
+      "warehouse_id": "WH-003",
+      "scale": 106.66337719298245
+    },
+    {
+      "sku_id": "SKU-0078",
+      "warehouse_id": "WH-005",
+      "scale": 64.85087719298245
+    },
+    {
+      "sku_id": "SKU-0078",
+      "warehouse_id": "WH-010",
+      "scale": 56.18969298245614
+    },
+    {
+      "sku_id": "SKU-0079",
+      "warehouse_id": "WH-002",
+      "scale": 1911.0570175438597
+    },
+    {
+      "sku_id": "SKU-0079",
+      "warehouse_id": "WH-004",
+      "scale": 2713.4835526315787
+    },
+    {
+      "sku_id": "SKU-0079",
+      "warehouse_id": "WH-007",
+      "scale": 1329.796052631579
+    },
+    {
+      "sku_id": "SKU-0079",
+      "warehouse_id": "WH-011",
+      "scale": 1500.9429824561403
+    },
+    {
+      "sku_id": "SKU-0080",
+      "warehouse_id": "WH-002",
+      "scale": 2475.876096491228
+    },
+    {
+      "sku_id": "SKU-0080",
+      "warehouse_id": "WH-006",
+      "scale": 3200.8125
+    },
+    {
+      "sku_id": "SKU-0080",
+      "warehouse_id": "WH-007",
+      "scale": 3325.3958333333335
+    },
+    {
+      "sku_id": "SKU-0080",
+      "warehouse_id": "WH-009",
+      "scale": 2582.8223684210525
+    },
+    {
+      "sku_id": "SKU-0081",
+      "warehouse_id": "WH-003",
+      "scale": 1329.0043859649122
+    },
+    {
+      "sku_id": "SKU-0081",
+      "warehouse_id": "WH-008",
+      "scale": 1751.9813596491229
+    },
+    {
+      "sku_id": "SKU-0081",
+      "warehouse_id": "WH-011",
+      "scale": 1270.826754385965
+    },
+    {
+      "sku_id": "SKU-0081",
+      "warehouse_id": "WH-012",
+      "scale": 1080.828947368421
+    },
+    {
+      "sku_id": "SKU-0082",
+      "warehouse_id": "WH-002",
+      "scale": 635.4046052631579
+    },
+    {
+      "sku_id": "SKU-0082",
+      "warehouse_id": "WH-007",
+      "scale": 815.0953947368421
+    },
+    {
+      "sku_id": "SKU-0082",
+      "warehouse_id": "WH-010",
+      "scale": 837.8969298245614
+    },
+    {
+      "sku_id": "SKU-0082",
+      "warehouse_id": "WH-011",
+      "scale": 787.5219298245614
+    },
+    {
+      "sku_id": "SKU-0083",
+      "warehouse_id": "WH-002",
+      "scale": 644.2313596491229
+    },
+    {
+      "sku_id": "SKU-0083",
+      "warehouse_id": "WH-009",
+      "scale": 822.0964912280701
+    },
+    {
+      "sku_id": "SKU-0083",
+      "warehouse_id": "WH-011",
+      "scale": 967.7719298245614
+    },
+    {
+      "sku_id": "SKU-0083",
+      "warehouse_id": "WH-012",
+      "scale": 836.0734649122807
+    },
+    {
+      "sku_id": "SKU-0084",
+      "warehouse_id": "WH-003",
+      "scale": 686.6995614035088
+    },
+    {
+      "sku_id": "SKU-0084",
+      "warehouse_id": "WH-007",
+      "scale": 723.0723684210526
+    },
+    {
+      "sku_id": "SKU-0084",
+      "warehouse_id": "WH-008",
+      "scale": 366.5668859649123
+    },
+    {
+      "sku_id": "SKU-0084",
+      "warehouse_id": "WH-010",
+      "scale": 414.79276315789474
+    },
+    {
+      "sku_id": "SKU-0085",
+      "warehouse_id": "WH-001",
+      "scale": 967.6271929824561
+    },
+    {
+      "sku_id": "SKU-0085",
+      "warehouse_id": "WH-003",
+      "scale": 475.7675438596491
+    },
+    {
+      "sku_id": "SKU-0085",
+      "warehouse_id": "WH-006",
+      "scale": 660.7938596491229
+    },
+    {
+      "sku_id": "SKU-0085",
+      "warehouse_id": "WH-008",
+      "scale": 857.5482456140351
+    },
+    {
+      "sku_id": "SKU-0086",
+      "warehouse_id": "WH-002",
+      "scale": 554.9375
+    },
+    {
+      "sku_id": "SKU-0086",
+      "warehouse_id": "WH-004",
+      "scale": 868.219298245614
+    },
+    {
+      "sku_id": "SKU-0086",
+      "warehouse_id": "WH-008",
+      "scale": 534.1447368421053
+    },
+    {
+      "sku_id": "SKU-0086",
+      "warehouse_id": "WH-011",
+      "scale": 535.0668859649123
+    },
+    {
+      "sku_id": "SKU-0087",
+      "warehouse_id": "WH-001",
+      "scale": 59.37171052631579
+    },
+    {
+      "sku_id": "SKU-0087",
+      "warehouse_id": "WH-003",
+      "scale": 94.99451754385964
+    },
+    {
+      "sku_id": "SKU-0087",
+      "warehouse_id": "WH-010",
+      "scale": 95.71381578947368
+    },
+    {
+      "sku_id": "SKU-0087",
+      "warehouse_id": "WH-012",
+      "scale": 79.78508771929825
+    },
+    {
+      "sku_id": "SKU-0088",
+      "warehouse_id": "WH-002",
+      "scale": 229.90131578947367
+    },
+    {
+      "sku_id": "SKU-0088",
+      "warehouse_id": "WH-008",
+      "scale": 194.76206140350877
+    },
+    {
+      "sku_id": "SKU-0088",
+      "warehouse_id": "WH-009",
+      "scale": 342.36293859649123
+    },
+    {
+      "sku_id": "SKU-0088",
+      "warehouse_id": "WH-012",
+      "scale": 257.0285087719298
+    },
+    {
+      "sku_id": "SKU-0089",
+      "warehouse_id": "WH-008",
+      "scale": 293.2576754385965
+    },
+    {
+      "sku_id": "SKU-0089",
+      "warehouse_id": "WH-009",
+      "scale": 272.390350877193
+    },
+    {
+      "sku_id": "SKU-0089",
+      "warehouse_id": "WH-010",
+      "scale": 292.8157894736842
+    },
+    {
+      "sku_id": "SKU-0089",
+      "warehouse_id": "WH-011",
+      "scale": 269.13377192982455
+    },
+    {
+      "sku_id": "SKU-0090",
+      "warehouse_id": "WH-005",
+      "scale": 381.8618421052632
+    },
+    {
+      "sku_id": "SKU-0090",
+      "warehouse_id": "WH-006",
+      "scale": 426.8563596491228
+    },
+    {
+      "sku_id": "SKU-0090",
+      "warehouse_id": "WH-007",
+      "scale": 276.2214912280702
+    },
+    {
+      "sku_id": "SKU-0090",
+      "warehouse_id": "WH-009",
+      "scale": 425.844298245614
+    },
+    {
+      "sku_id": "SKU-0091",
+      "warehouse_id": "WH-002",
+      "scale": 32.9671052631579
+    },
+    {
+      "sku_id": "SKU-0091",
+      "warehouse_id": "WH-007",
+      "scale": 49.97587719298246
+    },
+    {
+      "sku_id": "SKU-0091",
+      "warehouse_id": "WH-009",
+      "scale": 57.63157894736842
+    },
+    {
+      "sku_id": "SKU-0091",
+      "warehouse_id": "WH-011",
+      "scale": 48.41008771929825
+    },
+    {
+      "sku_id": "SKU-0092",
+      "warehouse_id": "WH-002",
+      "scale": 425.2532894736842
+    },
+    {
+      "sku_id": "SKU-0092",
+      "warehouse_id": "WH-006",
+      "scale": 489.4594298245614
+    },
+    {
+      "sku_id": "SKU-0092",
+      "warehouse_id": "WH-007",
+      "scale": 332.0405701754386
+    },
+    {
+      "sku_id": "SKU-0092",
+      "warehouse_id": "WH-008",
+      "scale": 341.01644736842104
+    },
+    {
+      "sku_id": "SKU-0093",
+      "warehouse_id": "WH-005",
+      "scale": 912.7741228070175
+    },
+    {
+      "sku_id": "SKU-0093",
+      "warehouse_id": "WH-008",
+      "scale": 1239.9331140350878
+    },
+    {
+      "sku_id": "SKU-0093",
+      "warehouse_id": "WH-011",
+      "scale": 776.5296052631579
+    },
+    {
+      "sku_id": "SKU-0093",
+      "warehouse_id": "WH-012",
+      "scale": 1420.2850877192982
+    },
+    {
+      "sku_id": "SKU-0094",
+      "warehouse_id": "WH-005",
+      "scale": 180.47149122807016
+    },
+    {
+      "sku_id": "SKU-0094",
+      "warehouse_id": "WH-008",
+      "scale": 199.18311403508773
+    },
+    {
+      "sku_id": "SKU-0094",
+      "warehouse_id": "WH-010",
+      "scale": 182.45065789473685
+    },
+    {
+      "sku_id": "SKU-0094",
+      "warehouse_id": "WH-012",
+      "scale": 232.14912280701753
+    },
+    {
+      "sku_id": "SKU-0095",
+      "warehouse_id": "WH-001",
+      "scale": 1791.142543859649
+    },
+    {
+      "sku_id": "SKU-0095",
+      "warehouse_id": "WH-004",
+      "scale": 1788.0756578947369
+    },
+    {
+      "sku_id": "SKU-0095",
+      "warehouse_id": "WH-005",
+      "scale": 1862.8388157894738
+    },
+    {
+      "sku_id": "SKU-0095",
+      "warehouse_id": "WH-011",
+      "scale": 1077.9024122807018
+    },
+    {
+      "sku_id": "SKU-0096",
+      "warehouse_id": "WH-004",
+      "scale": 414.9945175438597
+    },
+    {
+      "sku_id": "SKU-0096",
+      "warehouse_id": "WH-005",
+      "scale": 353.4561403508772
+    },
+    {
+      "sku_id": "SKU-0096",
+      "warehouse_id": "WH-006",
+      "scale": 498.9506578947368
+    },
+    {
+      "sku_id": "SKU-0096",
+      "warehouse_id": "WH-010",
+      "scale": 266.99780701754383
+    },
+    {
+      "sku_id": "SKU-0097",
+      "warehouse_id": "WH-003",
+      "scale": 681.1896929824561
+    },
+    {
+      "sku_id": "SKU-0097",
+      "warehouse_id": "WH-004",
+      "scale": 862.094298245614
+    },
+    {
+      "sku_id": "SKU-0097",
+      "warehouse_id": "WH-006",
+      "scale": 478.92763157894734
+    },
+    {
+      "sku_id": "SKU-0097",
+      "warehouse_id": "WH-010",
+      "scale": 780.3070175438596
+    },
+    {
+      "sku_id": "SKU-0098",
+      "warehouse_id": "WH-001",
+      "scale": 401.46491228070175
+    },
+    {
+      "sku_id": "SKU-0098",
+      "warehouse_id": "WH-005",
+      "scale": 745.8947368421053
+    },
+    {
+      "sku_id": "SKU-0098",
+      "warehouse_id": "WH-007",
+      "scale": 615.9791666666666
+    },
+    {
+      "sku_id": "SKU-0098",
+      "warehouse_id": "WH-008",
+      "scale": 550.7357456140351
+    },
+    {
+      "sku_id": "SKU-0099",
+      "warehouse_id": "WH-007",
+      "scale": 386.57675438596493
+    },
+    {
+      "sku_id": "SKU-0099",
+      "warehouse_id": "WH-009",
+      "scale": 318.6820175438597
+    },
+    {
+      "sku_id": "SKU-0099",
+      "warehouse_id": "WH-011",
+      "scale": 302.7313596491228
+    },
+    {
+      "sku_id": "SKU-0099",
+      "warehouse_id": "WH-012",
+      "scale": 415.3497807017544
+    }
+  ]
+}

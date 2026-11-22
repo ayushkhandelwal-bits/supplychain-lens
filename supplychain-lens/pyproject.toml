@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supplychain-lens"
+version = "0.1.0"
+description = "Deep learning-driven supply chain resilience and decision intelligence (portfolio project inspired by NEXUS-SCCT)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Ayush Khandelwal" }]
+# Runtime dependencies live in requirements*.txt so the hosted app (no PyTorch)
+# and the training environment (PyTorch) can be installed separately. See ADR-0009.
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["supplychain_lens*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+    "torch: needs PyTorch (training environment)",
+    "slow: takes more than a few seconds",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+extend-exclude = ["reference", "audit/bench_feasibility.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]

@@ -1,0 +1,255 @@
+{
+  "mode": "nexus_v2",
+  "generator_version": "0.1.0",
+  "config": {
+    "seed": 42,
+    "start": "2023-01-01",
+    "end": "2025-12-31",
+    "snapshot": "2025-12-31",
+    "n_suppliers": 50,
+    "n_skus": 100,
+    "warehouses_per_sku": 4,
+    "review_period_days": 7,
+    "promo_events_per_sku_year": 5.0,
+    "supplier_deterioration_per_year": 0.55,
+    "supplier_disruption_base_rate": 0.00012,
+    "supplier_disruption_health_slope": 8.0,
+    "port_events_per_year": 6.0,
+    "weather_events_per_year": 3.0,
+    "geopolitical_events_per_year": 2.0,
+    "logistics_events_per_year": 2.0,
+    "demand_events_per_year": 4.0,
+    "anomalies": {
+      "demand_spike": 80,
+      "inventory_shrink": 60,
+      "supplier_delay_burst": 40
+    }
+  },
+  "config_fingerprint": "f15d24c7d1a7c441",
+  "tables": {
+    "suppliers": {
+      "rows": 50,
+      "columns": [
+        "supplier_id",
+        "name",
+        "country",
+        "region",
+        "currency",
+        "category",
+        "health_score",
+        "risk_level",
+        "avg_lead_time_days",
+        "tier",
+        "certifications",
+        "primary_port",
+        "established_year",
+        "employee_count",
+        "lat",
+        "lng",
+        "on_time_delivery_rate",
+        "annual_spend_usd",
+        "capacity_units_per_day"
+      ],
+      "sha256": "51cabc8fa313445a"
+    },
+    "warehouses": {
+      "rows": 12,
+      "columns": [
+        "warehouse_id",
+        "name",
+        "facility_type",
+        "city",
+        "state",
+        "country",
+        "region",
+        "lat",
+        "lng",
+        "capacity_units"
+      ],
+      "sha256": "bdb90fb76c09091a"
+    },
+    "products": {
+      "rows": 100,
+      "columns": [
+        "sku_id",
+        "name",
+        "category",
+        "unit_cost",
+        "list_price",
+        "fragile",
+        "primary_supplier_id",
+        "backup_supplier_id"
+      ],
+      "sha256": "d44c47932e50824a"
+    },
+    "sku_warehouse": {
+      "rows": 400,
+      "columns": [
+        "sku_id",
+        "warehouse_id",
+        "demand_share",
+        "review_weekday"
+      ],
+      "sha256": "ed4489d44545cde9"
+    },
+    "promotions": {
+      "rows": 1505,
+      "columns": [
+        "promo_id",
+        "sku_id",
+        "start_date",
+        "end_date",
+        "discount_pct"
+      ],
+      "sha256": "a59e393bbc0f0d6d"
+    },
+    "calendar": {
+      "rows": 1096,
+      "columns": [
+        "date",
+        "dow",
+        "month",
+        "day_of_year",
+        "is_black_friday",
+        "is_cyber_monday",
+        "is_holiday_week"
+      ],
+      "sha256": "e490a01b19bb4571"
+    },
+    "demand_daily": {
+      "rows": 438400,
+      "columns": [
+        "date",
+        "sku_id",
+        "warehouse_id",
+        "demand_units",
+        "sales_units",
+        "lost_sales_units",
+        "price",
+        "is_promo",
+        "is_black_friday",
+        "is_cyber_monday",
+        "is_holiday_week"
+      ],
+      "sha256": "3d48556cd2206182"
+    },
+    "inventory_daily": {
+      "rows": 438400,
+      "columns": [
+        "date",
+        "sku_id",
+        "warehouse_id",
+        "on_hand_units",
+        "on_order_units",
+        "receipts_units",
+        "adjustment_units"
+      ],
+      "sha256": "c1c5e16952a96e16"
+    },
+    "warehouse_daily": {
+      "rows": 13152,
+      "columns": [
+        "warehouse_id",
+        "date",
+        "on_hand_units",
+        "utilization_pct"
+      ],
+      "sha256": "0db69bc9f0ebbac2"
+    },
+    "purchase_orders": {
+      "rows": 53133,
+      "columns": [
+        "po_id",
+        "sku_id",
+        "warehouse_id",
+        "supplier_id",
+        "order_date",
+        "promised_date",
+        "received_date",
+        "qty_ordered",
+        "qty_shipped",
+        "unit_cost",
+        "status"
+      ],
+      "sha256": "a85d923dfc9dcb28"
+    },
+    "shipments": {
+      "rows": 53133,
+      "columns": [
+        "shipment_id",
+        "po_id",
+        "supplier_id",
+        "warehouse_id",
+        "sku_id",
+        "origin_country",
+        "origin_port",
+        "carrier",
+        "transport_mode",
+        "ship_date",
+        "eta",
+        "actual_arrival",
+        "status",
+        "quantity_units",
+        "value_usd",
+        "delay_days",
+        "is_delayed"
+      ],
+      "sha256": "9d8e389a9d12d61c"
+    },
+    "disruptions": {
+      "rows": 171,
+      "columns": [
+        "event_id",
+        "event_type",
+        "severity",
+        "title",
+        "scope",
+        "affected_category",
+        "detected_at",
+        "resolved_at",
+        "status",
+        "capacity_factor",
+        "lead_time_add_days",
+        "demand_multiplier",
+        "estimated_impact_usd",
+        "affected_entities"
+      ],
+      "sha256": "2b4feb298eaef3a3"
+    },
+    "disruption_suppliers": {
+      "rows": 370,
+      "columns": [
+        "event_id",
+        "supplier_id"
+      ],
+      "sha256": "da3b5d71b9b9024b"
+    },
+    "kpi_daily": {
+      "rows": 1096,
+      "columns": [
+        "date",
+        "fill_rate_pct",
+        "stockout_rate_pct",
+        "inventory_value_usd",
+        "warehouse_utilization_pct",
+        "otif_pct",
+        "active_disruptions"
+      ],
+      "sha256": "49565384e98a75aa"
+    }
+  },
+  "truth_tables": {
+    "supplier_latent_daily": {
+      "rows": 54800
+    },
+    "injected_anomalies": {
+      "rows": 180
+    },
+    "product_profiles": {
+      "rows": 100
+    },
+    "all_disruption_events": {
+      "rows": 370
+    }
+  }
+}

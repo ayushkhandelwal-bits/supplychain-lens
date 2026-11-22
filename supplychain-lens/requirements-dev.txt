@@ -1,0 +1,4 @@
+# Development tools: tests and linting. Includes the training environment.
+-r requirements-train.txt
+pytest>=8
+ruff>=0.6

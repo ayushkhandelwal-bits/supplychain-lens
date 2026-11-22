@@ -1,0 +1,62 @@
+{
+  "kind": "lstm",
+  "display_name": "LSTM (PyTorch)",
+  "seed": 42,
+  "model_config": {
+    "n_past": 10,
+    "n_future": 9,
+    "n_sku": 100,
+    "n_warehouse": 12,
+    "n_category": 10,
+    "hidden": 64,
+    "layers": 1,
+    "dropout": 0.1,
+    "emb_sku": 8,
+    "emb_warehouse": 4,
+    "emb_category": 3
+  },
+  "parameters": 54257,
+  "lookback": 56,
+  "horizon": 28,
+  "past_features": [
+    "demand_scaled",
+    "is_promo",
+    "price_ratio",
+    "dow_sin",
+    "dow_cos",
+    "doy_sin",
+    "doy_cos",
+    "is_black_friday",
+    "is_cyber_monday",
+    "is_holiday_week"
+  ],
+  "future_features": [
+    "is_promo",
+    "price_ratio",
+    "dow_sin",
+    "dow_cos",
+    "doy_sin",
+    "doy_cos",
+    "is_black_friday",
+    "is_cyber_monday",
+    "is_holiday_week"
+  ],
+  "split": {
+    "train_end": "2025-06-30",
+    "val_end": "2025-09-30",
+    "test_start": "2025-10-01"
+  },
+  "best_val_loss": 0.03857407921552658,
+  "epochs_run": 19,
+  "best_epoch": 14,
+  "train_seconds": 237.1,
+  "hyperparameters": {
+    "lr": 0.002,
+    "batch_size": 256,
+    "windows_per_epoch": 40000,
+    "max_epochs": 30,
+    "patience": 5
+  },
+  "train_windows_available": 331600,
+  "val_windows": 4000
+}

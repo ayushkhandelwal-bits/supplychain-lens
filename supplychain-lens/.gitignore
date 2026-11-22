@@ -1,0 +1,36 @@
+# Reference clone (study only, never committed)
+reference/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated data (rebuilt by the pipeline)
+data/*.db
+data/*.sqlite
+data/raw/
+data/processed/
+
+# Local secrets and editor files
+.env
+.streamlit/secrets.toml
+# keep shared VS Code settings, ignore personal ones
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Machine-specific smoke-test output
+reports/*hardware_profile.json
+
+# Build outputs
+*.egg-info/
+build/
+dist/

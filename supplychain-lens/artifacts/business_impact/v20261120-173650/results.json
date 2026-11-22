@@ -1,0 +1,231 @@
+{
+  "label": "SIMULATED / POC RESULT \u2014 synthetic data, digital-twin replay; not real company results",
+  "period": {
+    "start": "2025-10-01",
+    "end": "2025-12-31",
+    "days": 92
+  },
+  "replications": 30,
+  "forecast_model": "TFT (PyTorch)",
+  "forecast_version": "v20261120-173345",
+  "risk_model": "Neural network (PyTorch MLP)",
+  "risk_threshold": 0.12503569550812244,
+  "metrics": {
+    "fill_rate": {
+      "baseline_mean": 0.861019345890147,
+      "ai_mean": 0.9240893820532928,
+      "diff": 0.06307003616314592,
+      "ci_low": 0.061986036585424654,
+      "ci_high": 0.06415403574086719,
+      "p_value": 1.4748763378442382e-40,
+      "relative_change": 0.07325042865087111
+    },
+    "stockout_rate": {
+      "baseline_mean": 0.13953532608695654,
+      "ai_mean": 0.08852626811594203,
+      "diff": -0.05100905797101449,
+      "ci_low": -0.05174567376072134,
+      "ci_high": -0.050272442181307636,
+      "p_value": 9.5424980157741e-43,
+      "relative_change": -0.3655637565158684
+    },
+    "lost_revenue": {
+      "baseline_mean": 2991674290.36235,
+      "ai_mean": 1980365332.96215,
+      "diff": -1011308957.4002,
+      "ci_low": -1023681044.5902122,
+      "ci_high": -998936870.2101878,
+      "p_value": 7.818851637327696e-45,
+      "relative_change": -0.3380411298977707
+    },
+    "lost_margin": {
+      "baseline_mean": 1034601079.1951501,
+      "ai_mean": 695757771.1621835,
+      "diff": -338843308.0329667,
+      "ci_low": -342824367.44707745,
+      "ci_high": -334862248.6188559,
+      "p_value": 2.4233263124973504e-45,
+      "relative_change": -0.32751107151034864
+    },
+    "holding_cost": {
+      "baseline_mean": 108658785.75838868,
+      "ai_mean": 123226845.05749941,
+      "diff": 14568059.299110731,
+      "ci_low": 14372932.35198703,
+      "ci_high": 14763186.246234432,
+      "p_value": 1.0795044184211247e-43,
+      "relative_change": 0.1340716187598852
+    },
+    "ordering_cost": {
+      "baseline_mean": 2336400.0,
+      "ai_mean": 2301400.0,
+      "diff": -35000.0,
+      "ci_low": -36793.47575900482,
+      "ci_high": -33206.52424099518,
+      "p_value": 6.753093437239921e-27,
+      "relative_change": -0.014980311590481082
+    },
+    "backup_premium": {
+      "baseline_mean": 0.0,
+      "ai_mean": 157761521.9799467,
+      "diff": 157761521.9799467,
+      "ci_low": 157565507.6264107,
+      "ci_high": 157957536.3334827,
+      "p_value": 1.2430831666805548e-73,
+      "relative_change": NaN
+    },
+    "overflow_cost": {
+      "baseline_mean": 0.0,
+      "ai_mean": 0.0,
+      "diff": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p_value": NaN,
+      "relative_change": NaN
+    },
+    "total_cost": {
+      "baseline_mean": 1145596264.9535387,
+      "ai_mean": 979047538.1996295,
+      "diff": -166548726.7539093,
+      "ci_low": -170493118.35061088,
+      "ci_high": -162604335.1572077,
+      "p_value": 1.5679039146260337e-36,
+      "relative_change": -0.14538169497319714
+    },
+    "avg_inventory_value": {
+      "baseline_mean": 1724367687.0352988,
+      "ai_mean": 1955556454.1733603,
+      "diff": 231188767.13806155,
+      "ci_low": 228092187.32501152,
+      "ci_high": 234285346.95111158,
+      "p_value": 1.079504418421082e-43,
+      "relative_change": 0.13407161875988516
+    },
+    "backup_orders": {
+      "baseline_mean": 0.0,
+      "ai_mean": 674.7,
+      "diff": 674.7,
+      "ci_low": 673.8220915820707,
+      "ci_high": 675.5779084179294,
+      "p_value": 4.7423503999478364e-73,
+      "relative_change": NaN
+    }
+  },
+  "ablation_no_predicted_risk_switching": {
+    "fill_rate": {
+      "baseline_mean": 0.861019345890147,
+      "ai_mean": 0.92417484418601,
+      "diff": 0.06315549829586313,
+      "ci_low": 0.062077520882101736,
+      "ci_high": 0.06423347570962452,
+      "p_value": 1.2070029648115327e-40,
+      "relative_change": 0.07334968557596244
+    },
+    "stockout_rate": {
+      "baseline_mean": 0.13953532608695654,
+      "ai_mean": 0.08857608695652176,
+      "diff": -0.050959239130434784,
+      "ci_low": -0.05167957901278885,
+      "ci_high": -0.05023889924808072,
+      "p_value": 5.139649120514461e-43,
+      "relative_change": -0.3652067226236148
+    },
+    "lost_revenue": {
+      "baseline_mean": 2991674290.36235,
+      "ai_mean": 1978161431.17535,
+      "diff": -1013512859.1869999,
+      "ci_low": -1025918269.3755196,
+      "ci_high": -1001107448.9984802,
+      "p_value": 7.935899690157682e-45,
+      "relative_change": -0.33877780828348253
+    },
+    "lost_margin": {
+      "baseline_mean": 1034601079.1951501,
+      "ai_mean": 695224232.4293166,
+      "diff": -339376846.7658333,
+      "ci_low": -343374219.0575548,
+      "ci_high": -335379474.47411186,
+      "p_value": 2.606568288334662e-45,
+      "relative_change": -0.3280267666353544
+    },
+    "holding_cost": {
+      "baseline_mean": 108658785.75838868,
+      "ai_mean": 123218234.59186885,
+      "diff": 14559448.833480159,
+      "ci_low": 14365363.799590064,
+      "ci_high": 14753533.867370253,
+      "p_value": 9.403976827941303e-44,
+      "relative_change": 0.13399237559910004
+    },
+    "ordering_cost": {
+      "baseline_mean": 2336400.0,
+      "ai_mean": 2310150.0,
+      "diff": -26250.0,
+      "ci_low": -28061.97857783722,
+      "ci_high": -24438.02142216278,
+      "p_value": 3.1179634029695144e-23,
+      "relative_change": -0.011235233692860811
+    },
+    "backup_premium": {
+      "baseline_mean": 0.0,
+      "ai_mean": 133962447.19922668,
+      "diff": 133962447.19922668,
+      "ci_low": 133786388.81612228,
+      "ci_high": 134138505.58233108,
+      "p_value": 6.334481375453599e-73,
+      "relative_change": NaN
+    },
+    "overflow_cost": {
+      "baseline_mean": 0.0,
+      "ai_mean": 0.0,
+      "diff": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p_value": NaN,
+      "relative_change": NaN
+    },
+    "total_cost": {
+      "baseline_mean": 1145596264.9535387,
+      "ai_mean": 954715064.220412,
+      "diff": -190881200.73312655,
+      "ci_low": -194818597.3087552,
+      "ci_high": -186943804.1574979,
+      "p_value": 2.8922244902563325e-38,
+      "relative_change": -0.16662170310136967
+    },
+    "avg_inventory_value": {
+      "baseline_mean": 1724367687.0352988,
+      "ai_mean": 1955419809.8274844,
+      "diff": 231052122.79218516,
+      "ci_low": 227972077.6891467,
+      "ci_high": 234132167.89522362,
+      "p_value": 9.403976827942992e-44,
+      "relative_change": 0.13399237559910004
+    },
+    "backup_orders": {
+      "baseline_mean": 0.0,
+      "ai_mean": 571.2,
+      "diff": 571.2,
+      "ci_low": 570.4767359151881,
+      "ci_high": 571.923264084812,
+      "p_value": 2.152450492465961e-73,
+      "relative_change": NaN
+    }
+  },
+  "uncertainty_note": "Replications vary supplier delays only; demand is the actual Q4 2025 history, so the intervals reflect lead-time randomness, not demand uncertainty.",
+  "twin_calibration": {
+    "history_fill_rate": 0.8462554586317972,
+    "twin_baseline_fill_rate": 0.861019345890147,
+    "history_stockout_rate": 0.15067934782608697,
+    "twin_baseline_stockout_rate": 0.13953532608695654
+  },
+  "seconds": 30.5,
+  "assumptions": {
+    "holding_rate_per_year": 0.25,
+    "order_cost_usd": 500,
+    "backup_premium": 0.08,
+    "service_z_ai": 1.65,
+    "lost_sales": "lost (no backorders)",
+    "margin": "list price \u2212 unit cost"
+  }
+}

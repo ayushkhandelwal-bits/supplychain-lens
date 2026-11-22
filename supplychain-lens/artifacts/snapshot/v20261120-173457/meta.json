@@ -1,0 +1,14 @@
+{
+  "snapshot_date": "2025-12-31",
+  "forecast_model": "TFT (PyTorch)",
+  "forecast_artifact": "forecast_tft",
+  "forecast_version": "v20261120-173345",
+  "forecast_latency_ms_all_series": 313.4,
+  "risk_model": "Neural network (PyTorch MLP)",
+  "risk_version": "v20261120-171337",
+  "risk_threshold": 0.12503569550812244,
+  "top_risk_supplier": "SUP-0021",
+  "stockout_window_days": 14,
+  "mc_samples": 2000,
+  "seconds": 4.7
+}

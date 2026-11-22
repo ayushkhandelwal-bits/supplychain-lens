@@ -1,0 +1,17 @@
+# Supply Chain Lens theme: same palette as the project deck and video.
+[theme]
+base = "light"
+primaryColor = "#E8603C"
+backgroundColor = "#FBF8F3"
+secondaryBackgroundColor = "#F3EEE6"
+textColor = "#1F2A44"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

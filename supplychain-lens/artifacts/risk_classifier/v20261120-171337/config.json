@@ -1,0 +1,22 @@
+{
+  "horizon_days": 14,
+  "selected_model": "Neural network (PyTorch MLP)",
+  "seed": 42,
+  "selection_rule": "best validation PR-AUC; threshold = best validation F1",
+  "mlp": {
+    "hidden": 64,
+    "parameters": 3393
+  },
+  "xgboost_best_iteration": 6,
+  "rows": {
+    "train": 40400,
+    "val": 3900,
+    "test": 3900
+  },
+  "positive_rate": {
+    "train": 0.02702970297029703,
+    "val": 0.03487179487179487,
+    "test": 0.03641025641025641
+  },
+  "seconds": 8.3
+}
